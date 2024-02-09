@@ -3,6 +3,7 @@ package sensors
 import (
 	"fmt"
 	"github.com/kpeu3i/bno055"
+	"github.com/kidoman/embd"
 )
 
 type BNO055 struct {
