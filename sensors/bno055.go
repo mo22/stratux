@@ -7,7 +7,7 @@ import (
 )
 
 type BNO055 struct {
-	mpu *bno055.BNO055
+	// mpu *bno055.BNO055
 }
 
 func NewBNO055(i2cbus *embd.I2CBus) (*BNO055, error) {
@@ -61,7 +61,7 @@ func NewBNO055(i2cbus *embd.I2CBus) (*BNO055, error) {
 		axisConfig.SignZ,
 	)
 
-	m.mpu = sensor
+	// m.mpu = sensor
 
 	return &m, nil
 }
